@@ -1,0 +1,935 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="443.91" height="229.73415392631415">
+<style type="text/css" >
+<![CDATA[
+.font { font-family: Helvetica; font-size: 3.050399px; font-weight: bold;  }
+.numbering-line { stroke: rgb(204, 204, 204); stroke-width: 0.1907;  }
+.bp-line { stroke-width: 0.3813;  }
+.text-black { fill: rgb(0, 0, 0);  }
+.text-red { fill: rgb(255, 0, 255);  }
+.text-green { fill: rgb(0, 255, 0);  }
+.text-blue { fill: rgb(0, 0, 255);  }
+.text-gray { fill: rgb(204, 204, 204);  }
+.text-brown { fill: rgb(211.65, 104.55, 30.6);  }
+text { element-wise: True; fill: rgb(0, 0, 0); text-anchor: middle; dominant-baseline: middle;  }
+.circle-black { stroke: rgb(0, 0, 0); fill: none;  }
+.circle-red { stroke: rgb(255, 0, 255); fill: none;  }
+.circle-green { stroke: rgb(0, 255, 0); fill: none;  }
+.circle-blue { stroke: rgb(0, 0, 255); fill: none;  }
+.circle-gray { stroke: rgb(204, 204, 204); fill: none;  }
+.circle-brown { stroke: rgb(211.65, 104.55, 30.6); fill: none;  }
+.circle { stroke: rgb(0, 0, 0);  }
+.numbering-label { fill: rgb(204, 204, 204);  }
+.numbering-line { stroke: rgb(204, 204, 204);  }
+.template { visibility: hidden;  }
+.bp-line { stroke: rgb(0, 0, 0);  }
+.residue-circle { fill: rgb(255,255,255);  }
+.res-line { stroke: rgb(204, 204, 204);  }
+.color-posterior_probability-0 { fill: rgb(158, 189, 240);  }
+.color-posterior_probability-10 { fill: rgb(255, 255, 255);  }
+]]>
+</style>
+
+<g class="bps"><line x1="131.51" y1="192.1" x2="143.75" y2="192.1" class="bp-line" />
+<line x1="131.51" y1="184.54" x2="143.54" y2="184.54" class="bp-line" />
+<line x1="131.72" y1="176.98" x2="143.75" y2="176.98" class="bp-line" />
+<line x1="131.72" y1="169.42" x2="143.75" y2="169.42" class="bp-line" />
+<line x1="131.72" y1="161.86" x2="143.54" y2="161.86" class="bp-line" />
+<line x1="131.51" y1="154.3" x2="143.96" y2="154.3" class="bp-line" />
+<line x1="131.72" y1="146.74" x2="143.75" y2="146.74" class="bp-line" />
+<line x1="125.82" y1="141.52" x2="125.44" y2="129.3" class="bp-line" />
+<line x1="118.27" y1="141.89" x2="117.89" y2="129.67000000000002" class="bp-line" />
+<line x1="111.08" y1="142.47" x2="110.34" y2="130.04000000000002" class="bp-line" />
+<line x1="103.59" y1="142.63" x2="102.57" y2="130.4" class="bp-line" />
+<line x1="96.04" y1="143.0" x2="95.23" y2="130.78" class="bp-line" />
+<line x1="76.79" y1="143.93" x2="75.98" y2="131.70999999999998" class="bp-line" />
+<line x1="69.24000000000001" y1="144.3" x2="68.43" y2="132.07999999999998" class="bp-line" />
+<line x1="61.84" y1="144.88" x2="61.24" y2="132.65" class="bp-line" />
+<line x1="46.37" y1="145.63" x2="45.77" y2="133.41" class="bp-line" />
+<line x1="38.46" y1="145.8" x2="38.28" y2="133.57" class="bp-line" />
+<line x1="31.33" y1="146.16" x2="30.52" y2="133.94" class="bp-line" />
+<line x1="23.36" y1="146.53" x2="22.97" y2="134.31" class="bp-line" />
+<line x1="144.67" y1="123.58" x2="151.0" y2="134.18" class="bp-line" />
+<line x1="151.43" y1="119.8" x2="157.76" y2="130.4" class="bp-line" />
+<line x1="157.77" y1="116.02" x2="164.1" y2="126.62" class="bp-line" />
+<line x1="164.31" y1="112.24" x2="170.64" y2="122.84" class="bp-line" />
+<line x1="185.71" y1="99.88" x2="192.04" y2="110.48" class="bp-line" />
+<line x1="192.26" y1="96.1" x2="198.59" y2="106.7" class="bp-line" />
+<line x1="198.81" y1="92.32" x2="205.14" y2="102.92" class="bp-line" />
+<line x1="205.77" y1="88.54" x2="211.68" y2="99.14" class="bp-line" />
+<line x1="215.31" y1="82.73" x2="221.64" y2="93.33" class="bp-line" />
+<line x1="227.46" y1="75.84" x2="233.59" y2="86.43" class="bp-line" />
+<line x1="234.01" y1="72.06" x2="239.92" y2="82.65" class="bp-line" />
+<line x1="240.77" y1="68.28" x2="246.88" y2="78.88" class="bp-line" />
+<line x1="249.77" y1="63.26" x2="255.53" y2="73.66" class="bp-line" />
+<line x1="345.81" y1="197.32" x2="358.05" y2="197.32" class="bp-line" />
+<line x1="345.81" y1="189.76" x2="357.84" y2="189.76" class="bp-line" />
+<line x1="345.81" y1="182.2" x2="358.26" y2="182.2" class="bp-line" />
+<line x1="345.6" y1="174.64" x2="358.05" y2="174.64" class="bp-line" />
+<line x1="346.02" y1="167.08" x2="357.84" y2="167.08" class="bp-line" />
+<line x1="346.02" y1="159.52" x2="358.05" y2="159.52" class="bp-line" />
+<line x1="345.81" y1="151.96" x2="358.26" y2="151.96" class="bp-line" />
+<line x1="345.81" y1="107.04" x2="357.84" y2="107.04" class="bp-line" />
+<line x1="345.81" y1="99.48" x2="358.26" y2="99.48" class="bp-line" />
+<line x1="345.81" y1="91.92" x2="357.84" y2="91.92" class="bp-line" />
+<line x1="345.81" y1="84.36" x2="357.84" y2="84.36" class="bp-line" />
+<line x1="346.02" y1="76.8" x2="358.05" y2="76.8" class="bp-line" />
+<line x1="345.81" y1="69.24000000000001" x2="357.84" y2="69.24000000000001" class="bp-line" />
+<line x1="346.0" y1="38.980000000000004" x2="358.03" y2="38.980000000000004" class="bp-line" />
+<line x1="345.79" y1="31.42" x2="357.82" y2="31.42" class="bp-line" />
+<line x1="346.0" y1="23.86" x2="358.03" y2="23.86" class="bp-line" />
+</g>
+<g class="residues"><line x1="131.51" y1="199.67" x2="131.51" y2="192.1" class="bp-line res-line" />
+<line x1="131.51" y1="192.1" x2="131.51" y2="184.54" class="bp-line res-line" />
+<line x1="131.51" y1="184.54" x2="131.72" y2="176.98" class="bp-line res-line" />
+<line x1="131.72" y1="176.98" x2="131.72" y2="169.42" class="bp-line res-line" />
+<line x1="131.72" y1="169.42" x2="131.72" y2="161.86" class="bp-line res-line" />
+<line x1="131.72" y1="161.86" x2="131.51" y2="154.3" class="bp-line res-line" />
+<line x1="131.51" y1="154.3" x2="131.72" y2="146.74" class="bp-line res-line" />
+<line x1="131.72" y1="146.74" x2="125.82" y2="141.52" class="bp-line res-line" />
+<line x1="125.82" y1="141.52" x2="118.27" y2="141.89" class="bp-line res-line" />
+<line x1="118.27" y1="141.89" x2="111.08" y2="142.47" class="bp-line res-line" />
+<line x1="111.08" y1="142.47" x2="103.59" y2="142.63" class="bp-line res-line" />
+<line x1="103.59" y1="142.63" x2="96.04" y2="143.0" class="bp-line res-line" />
+<line x1="96.04" y1="143.0" x2="89.9" y2="145.81" class="bp-line res-line" />
+<line x1="89.9" y1="145.81" x2="83.17" y2="146.13" class="bp-line res-line" />
+<line x1="83.17" y1="146.13" x2="76.79" y2="143.93" class="bp-line res-line" />
+<line x1="76.79" y1="143.93" x2="69.24000000000001" y2="144.3" class="bp-line res-line" />
+<line x1="69.24000000000001" y1="144.3" x2="61.84" y2="144.88" class="bp-line res-line" />
+<line x1="61.84" y1="144.88" x2="54.11" y2="145.27" class="bp-line res-line" />
+<line x1="54.11" y1="145.27" x2="46.37" y2="145.63" class="bp-line res-line" />
+<line x1="46.37" y1="145.63" x2="38.46" y2="145.8" class="bp-line res-line" />
+<line x1="38.46" y1="145.8" x2="31.33" y2="146.16" class="bp-line res-line" />
+<line x1="31.33" y1="146.16" x2="23.36" y2="146.53" class="bp-line res-line" />
+<line x1="23.36" y1="146.53" x2="16.23" y2="149.06" class="bp-line res-line" />
+<line x1="16.23" y1="149.06" x2="10.16" y2="144.85" class="bp-line res-line" />
+<line x1="10.16" y1="144.85" x2="10.0" y2="137.3" class="bp-line res-line" />
+<line x1="10.0" y1="137.3" x2="15.629999999999999" y2="132.49" class="bp-line res-line" />
+<line x1="15.629999999999999" y1="132.49" x2="22.97" y2="134.31" class="bp-line res-line" />
+<line x1="22.97" y1="134.31" x2="30.52" y2="133.94" class="bp-line res-line" />
+<line x1="30.52" y1="133.94" x2="38.28" y2="133.57" class="bp-line res-line" />
+<line x1="38.28" y1="133.57" x2="45.77" y2="133.41" class="bp-line res-line" />
+<line x1="45.77" y1="133.41" x2="45.68" y2="127.24" class="bp-line res-line" />
+<line x1="45.68" y1="127.24" x2="49.91" y2="122.74" class="bp-line res-line" />
+<line x1="49.91" y1="122.74" x2="56.07" y2="122.44" class="bp-line res-line" />
+<line x1="56.07" y1="122.44" x2="60.72" y2="126.5" class="bp-line res-line" />
+<line x1="60.72" y1="126.5" x2="61.24" y2="132.65" class="bp-line res-line" />
+<line x1="61.24" y1="132.65" x2="68.43" y2="132.07999999999998" class="bp-line res-line" />
+<line x1="68.43" y1="132.07999999999998" x2="75.98" y2="131.70999999999998" class="bp-line res-line" />
+<line x1="75.98" y1="131.70999999999998" x2="79.55" y2="126.74" class="bp-line res-line" />
+<line x1="79.55" y1="126.74" x2="85.29" y2="124.66" class="bp-line res-line" />
+<line x1="85.29" y1="124.66" x2="91.21" y2="126.19" class="bp-line res-line" />
+<line x1="91.21" y1="126.19" x2="95.23" y2="130.78" class="bp-line res-line" />
+<line x1="95.23" y1="130.78" x2="102.57" y2="130.4" class="bp-line res-line" />
+<line x1="102.57" y1="130.4" x2="110.34" y2="130.04000000000002" class="bp-line res-line" />
+<line x1="110.34" y1="130.04000000000002" x2="117.89" y2="129.67000000000002" class="bp-line res-line" />
+<line x1="117.89" y1="129.67000000000002" x2="125.44" y2="129.3" class="bp-line res-line" />
+<line x1="125.44" y1="129.3" x2="130.53" y2="123.78" class="bp-line res-line" />
+<line x1="130.53" y1="123.78" x2="137.63" y2="121.44" class="bp-line res-line" />
+<line x1="137.63" y1="121.44" x2="144.67" y2="123.58" class="bp-line res-line" />
+<line x1="144.67" y1="123.58" x2="151.43" y2="119.8" class="bp-line res-line" />
+<line x1="151.43" y1="119.8" x2="157.77" y2="116.02" class="bp-line res-line" />
+<line x1="157.77" y1="116.02" x2="164.31" y2="112.24" class="bp-line res-line" />
+<line x1="164.31" y1="112.24" x2="161.36" y2="105.47" class="bp-line res-line" />
+<line x1="161.36" y1="105.47" x2="162.23" y2="97.98" class="bp-line res-line" />
+<line x1="162.23" y1="97.98" x2="167.35" y2="92.43" class="bp-line res-line" />
+<line x1="167.35" y1="92.43" x2="174.93" y2="90.76" class="bp-line res-line" />
+<line x1="174.93" y1="90.76" x2="181.9" y2="93.79" class="bp-line res-line" />
+<line x1="181.9" y1="93.79" x2="185.71" y2="99.88" class="bp-line res-line" />
+<line x1="185.71" y1="99.88" x2="192.26" y2="96.1" class="bp-line res-line" />
+<line x1="192.26" y1="96.1" x2="198.81" y2="92.32" class="bp-line res-line" />
+<line x1="198.81" y1="92.32" x2="205.77" y2="88.54" class="bp-line res-line" />
+<line x1="205.77" y1="88.54" x2="215.31" y2="82.73" class="bp-line res-line" />
+<line x1="215.31" y1="82.73" x2="219.94" y2="76.6" class="bp-line res-line" />
+<line x1="219.94" y1="76.6" x2="227.46" y2="75.84" class="bp-line res-line" />
+<line x1="227.46" y1="75.84" x2="234.01" y2="72.06" class="bp-line res-line" />
+<line x1="234.01" y1="72.06" x2="240.77" y2="68.28" class="bp-line res-line" />
+<line x1="240.77" y1="68.28" x2="249.77" y2="63.26" class="bp-line res-line" />
+<line x1="249.77" y1="63.26" x2="250.24" y2="56.04" class="bp-line res-line" />
+<line x1="250.24" y1="56.04" x2="253.67" y2="49.68" class="bp-line res-line" />
+<line x1="253.67" y1="49.68" x2="259.43" y2="45.31" class="bp-line res-line" />
+<line x1="259.43" y1="45.31" x2="266.49" y2="43.73" class="bp-line res-line" />
+<line x1="266.49" y1="43.73" x2="273.56" y2="45.22" class="bp-line res-line" />
+<line x1="273.56" y1="45.22" x2="279.38" y2="49.52" class="bp-line res-line" />
+<line x1="279.38" y1="49.52" x2="282.88" y2="55.85" class="bp-line res-line" />
+<line x1="282.88" y1="55.85" x2="283.44" y2="63.06" class="bp-line res-line" />
+<line x1="283.44" y1="63.06" x2="280.96" y2="69.85" class="bp-line res-line" />
+<line x1="280.96" y1="69.85" x2="275.87" y2="74.99" class="bp-line res-line" />
+<line x1="275.87" y1="74.99" x2="269.11" y2="77.56" class="bp-line res-line" />
+<line x1="269.11" y1="77.56" x2="261.9" y2="77.09" class="bp-line res-line" />
+<line x1="261.9" y1="77.09" x2="255.53" y2="73.66" class="bp-line res-line" />
+<line x1="255.53" y1="73.66" x2="257.16999999999996" y2="79.9" class="bp-line res-line" />
+<line x1="257.16999999999996" y1="79.9" x2="251.64" y2="83.24" class="bp-line res-line" />
+<line x1="251.64" y1="83.24" x2="246.88" y2="78.88" class="bp-line res-line" />
+<line x1="246.88" y1="78.88" x2="239.92" y2="82.65" class="bp-line res-line" />
+<line x1="239.92" y1="82.65" x2="233.59" y2="86.43" class="bp-line res-line" />
+<line x1="233.59" y1="86.43" x2="229.37" y2="92.57" class="bp-line res-line" />
+<line x1="229.37" y1="92.57" x2="221.64" y2="93.33" class="bp-line res-line" />
+<line x1="221.64" y1="93.33" x2="223.64" y2="98.46" class="bp-line res-line" />
+<line x1="223.64" y1="98.46" x2="220.66" y2="103.09" class="bp-line res-line" />
+<line x1="220.66" y1="103.09" x2="215.16" y2="103.41" class="bp-line res-line" />
+<line x1="215.16" y1="103.41" x2="211.68" y2="99.14" class="bp-line res-line" />
+<line x1="211.68" y1="99.14" x2="205.14" y2="102.92" class="bp-line res-line" />
+<line x1="205.14" y1="102.92" x2="198.59" y2="106.7" class="bp-line res-line" />
+<line x1="198.59" y1="106.7" x2="192.04" y2="110.48" class="bp-line res-line" />
+<line x1="192.04" y1="110.48" x2="190.59" y2="118.08" class="bp-line res-line" />
+<line x1="190.59" y1="118.08" x2="185.18" y2="123.3" class="bp-line res-line" />
+<line x1="185.18" y1="123.3" x2="177.84" y2="125.14" class="bp-line res-line" />
+<line x1="177.84" y1="125.14" x2="170.64" y2="122.84" class="bp-line res-line" />
+<line x1="170.64" y1="122.84" x2="164.1" y2="126.62" class="bp-line res-line" />
+<line x1="164.1" y1="126.62" x2="157.76" y2="130.4" class="bp-line res-line" />
+<line x1="157.76" y1="130.4" x2="151.0" y2="134.18" class="bp-line res-line" />
+<line x1="151.0" y1="134.18" x2="149.22" y2="141.52" class="bp-line res-line" />
+<line x1="149.22" y1="141.52" x2="143.75" y2="146.74" class="bp-line res-line" />
+<line x1="143.75" y1="146.74" x2="143.96" y2="154.3" class="bp-line res-line" />
+<line x1="143.96" y1="154.3" x2="143.54" y2="161.86" class="bp-line res-line" />
+<line x1="143.54" y1="161.86" x2="143.75" y2="169.42" class="bp-line res-line" />
+<line x1="143.75" y1="169.42" x2="143.75" y2="176.98" class="bp-line res-line" />
+<line x1="143.75" y1="176.98" x2="143.54" y2="184.54" class="bp-line res-line" />
+<line x1="143.54" y1="184.54" x2="143.75" y2="192.1" class="bp-line res-line" />
+<line x1="143.75" y1="192.1" x2="149.3" y2="197.44" class="bp-line res-line" />
+<line x1="149.3" y1="197.44" x2="156.45" y2="197.44" class="bp-line res-line" />
+<line x1="156.45" y1="197.44" x2="164.42" y2="197.44" class="bp-line res-line" />
+<line x1="164.42" y1="197.44" x2="171.93" y2="197.65" class="bp-line res-line" />
+<line x1="171.93" y1="197.65" x2="179.49" y2="197.65" class="bp-line res-line" />
+<line x1="179.49" y1="197.65" x2="187.1" y2="197.44" class="bp-line res-line" />
+<line x1="187.1" y1="197.44" x2="194.66" y2="197.44" class="bp-line res-line" />
+<line x1="194.66" y1="197.44" x2="201.81" y2="197.44" class="bp-line res-line" />
+<line x1="201.81" y1="197.44" x2="209.58" y2="197.44" class="bp-line res-line" />
+<line x1="209.58" y1="197.44" x2="217.29" y2="197.65" class="bp-line res-line" />
+<line x1="217.29" y1="197.65" x2="224.9" y2="197.44" class="bp-line res-line" />
+<line x1="224.9" y1="197.44" x2="232.05" y2="197.44" class="bp-line res-line" />
+<line x1="232.05" y1="197.44" x2="239.97" y2="197.65" class="bp-line res-line" />
+<line x1="239.97" y1="197.65" x2="247.38" y2="197.44" class="bp-line res-line" />
+<line x1="247.38" y1="197.44" x2="255.14" y2="197.44" class="bp-line res-line" />
+<line x1="255.14" y1="197.44" x2="262.7" y2="197.44" class="bp-line res-line" />
+<line x1="262.7" y1="197.44" x2="270.26" y2="197.44" class="bp-line res-line" />
+<line x1="270.26" y1="197.44" x2="277.77" y2="197.65" class="bp-line res-line" />
+<line x1="277.77" y1="197.65" x2="284.97" y2="197.44" class="bp-line res-line" />
+<line x1="284.97" y1="197.44" x2="292.89" y2="197.65" class="bp-line res-line" />
+<line x1="292.89" y1="197.65" x2="300.45" y2="197.65" class="bp-line res-line" />
+<line x1="300.45" y1="197.65" x2="308.01" y2="197.65" class="bp-line res-line" />
+<line x1="308.01" y1="197.65" x2="315.57" y2="197.65" class="bp-line res-line" />
+<line x1="315.57" y1="197.65" x2="323.13" y2="197.65" class="bp-line res-line" />
+<line x1="323.13" y1="197.65" x2="330.69" y2="197.65" class="bp-line res-line" />
+<line x1="330.69" y1="197.65" x2="338.25" y2="197.65" class="bp-line res-line" />
+<line x1="338.25" y1="197.65" x2="345.81" y2="197.32" class="bp-line res-line" />
+<line x1="345.81" y1="197.32" x2="345.81" y2="189.76" class="bp-line res-line" />
+<line x1="345.81" y1="189.76" x2="345.81" y2="182.2" class="bp-line res-line" />
+<line x1="345.81" y1="182.2" x2="345.6" y2="174.64" class="bp-line res-line" />
+<line x1="345.6" y1="174.64" x2="346.02" y2="167.08" class="bp-line res-line" />
+<line x1="346.02" y1="167.08" x2="346.02" y2="159.52" class="bp-line res-line" />
+<line x1="346.02" y1="159.52" x2="345.81" y2="151.96" class="bp-line res-line" />
+<line x1="345.81" y1="151.96" x2="338.48" y2="152.5" class="bp-line res-line" />
+<line x1="338.48" y1="152.5" x2="330.96" y2="150.59" class="bp-line res-line" />
+<line x1="330.96" y1="150.59" x2="324.65" y2="146.42" class="bp-line res-line" />
+<line x1="324.65" y1="146.42" x2="320.04" y2="140.43" class="bp-line res-line" />
+<line x1="320.04" y1="140.43" x2="317.6" y2="133.28" class="bp-line res-line" />
+<line x1="317.6" y1="133.28" x2="317.6" y2="125.72" class="bp-line res-line" />
+<line x1="317.6" y1="125.72" x2="320.24" y2="118.56" class="bp-line res-line" />
+<line x1="320.24" y1="118.56" x2="324.86" y2="112.58" class="bp-line res-line" />
+<line x1="324.86" y1="112.58" x2="331.16" y2="108.4" class="bp-line res-line" />
+<line x1="331.16" y1="108.4" x2="338.42" y2="106.7" class="bp-line res-line" />
+<line x1="338.42" y1="106.7" x2="345.81" y2="107.04" class="bp-line res-line" />
+<line x1="345.81" y1="107.04" x2="345.81" y2="99.48" class="bp-line res-line" />
+<line x1="345.81" y1="99.48" x2="345.81" y2="91.92" class="bp-line res-line" />
+<line x1="345.81" y1="91.92" x2="345.81" y2="84.36" class="bp-line res-line" />
+<line x1="345.81" y1="84.36" x2="346.02" y2="76.8" class="bp-line res-line" />
+<line x1="346.02" y1="76.8" x2="345.81" y2="69.24000000000001" class="bp-line res-line" />
+<line x1="345.81" y1="69.24000000000001" x2="345.8" y2="61.68" class="bp-line res-line" />
+<line x1="345.8" y1="61.68" x2="345.83" y2="54.11" class="bp-line res-line" />
+<line x1="345.83" y1="54.11" x2="345.9" y2="46.54" class="bp-line res-line" />
+<line x1="345.9" y1="46.54" x2="346.0" y2="38.980000000000004" class="bp-line res-line" />
+<line x1="346.0" y1="38.980000000000004" x2="345.79" y2="31.42" class="bp-line res-line" />
+<line x1="345.79" y1="31.42" x2="346.0" y2="23.86" class="bp-line res-line" />
+<line x1="346.0" y1="23.86" x2="343.79" y2="18.05" class="bp-line res-line" />
+<line x1="343.79" y1="18.05" x2="346.26" y2="12.35" class="bp-line res-line" />
+<line x1="346.26" y1="12.35" x2="352.02" y2="10.0" class="bp-line res-line" />
+<line x1="352.02" y1="10.0" x2="357.78" y2="12.35" class="bp-line res-line" />
+<line x1="357.78" y1="12.35" x2="360.25" y2="18.05" class="bp-line res-line" />
+<line x1="360.25" y1="18.05" x2="358.03" y2="23.86" class="bp-line res-line" />
+<line x1="358.03" y1="23.86" x2="357.82" y2="31.42" class="bp-line res-line" />
+<line x1="357.82" y1="31.42" x2="358.03" y2="38.980000000000004" class="bp-line res-line" />
+<line x1="358.03" y1="38.980000000000004" x2="365.04" y2="38.91" class="bp-line res-line" />
+<line x1="365.04" y1="38.91" x2="371.37" y2="41.92" class="bp-line res-line" />
+<line x1="371.37" y1="41.92" x2="375.74" y2="47.4" class="bp-line res-line" />
+<line x1="375.74" y1="47.4" x2="377.27" y2="54.24" class="bp-line res-line" />
+<line x1="377.27" y1="54.24" x2="375.65" y2="61.05" class="bp-line res-line" />
+<line x1="375.65" y1="61.05" x2="371.21" y2="66.47" class="bp-line res-line" />
+<line x1="371.21" y1="66.47" x2="364.84" y2="69.4" class="bp-line res-line" />
+<line x1="364.84" y1="69.4" x2="357.84" y2="69.24000000000001" class="bp-line res-line" />
+<line x1="357.84" y1="69.24000000000001" x2="358.05" y2="76.8" class="bp-line res-line" />
+<line x1="358.05" y1="76.8" x2="357.84" y2="84.36" class="bp-line res-line" />
+<line x1="357.84" y1="84.36" x2="357.84" y2="91.92" class="bp-line res-line" />
+<line x1="357.84" y1="91.92" x2="358.26" y2="99.48" class="bp-line res-line" />
+<line x1="358.26" y1="99.48" x2="357.84" y2="107.04" class="bp-line res-line" />
+<line x1="357.84" y1="107.04" x2="365.13" y2="110.18" class="bp-line res-line" />
+<line x1="365.13" y1="110.18" x2="370.58" y2="115.57" class="bp-line res-line" />
+<line x1="370.58" y1="115.57" x2="374.19" y2="122.04" class="bp-line res-line" />
+<line x1="374.19" y1="122.04" x2="375.42" y2="129.5" class="bp-line res-line" />
+<line x1="375.42" y1="129.5" x2="374.19" y2="136.95999999999998" class="bp-line res-line" />
+<line x1="374.19" y1="136.95999999999998" x2="370.43" y2="143.63" class="bp-line res-line" />
+<line x1="370.43" y1="143.63" x2="364.93" y2="148.81" class="bp-line res-line" />
+<line x1="364.93" y1="148.81" x2="358.26" y2="151.96" class="bp-line res-line" />
+<line x1="358.26" y1="151.96" x2="358.05" y2="159.52" class="bp-line res-line" />
+<line x1="358.05" y1="159.52" x2="357.84" y2="167.08" class="bp-line res-line" />
+<line x1="357.84" y1="167.08" x2="358.05" y2="174.64" class="bp-line res-line" />
+<line x1="358.05" y1="174.64" x2="358.26" y2="182.2" class="bp-line res-line" />
+<line x1="358.26" y1="182.2" x2="357.84" y2="189.76" class="bp-line res-line" />
+<line x1="357.84" y1="189.76" x2="358.05" y2="197.32" class="bp-line res-line" />
+<line x1="358.05" y1="197.32" x2="363.4" y2="202.66" class="bp-line res-line" />
+<line x1="363.4" y1="202.66" x2="370.96" y2="202.87" class="bp-line res-line" />
+<line x1="370.96" y1="202.87" x2="378.53" y2="202.66" class="bp-line res-line" />
+<line x1="378.53" y1="202.66" x2="386.09" y2="202.66" class="bp-line res-line" />
+<line x1="386.09" y1="202.66" x2="393.66" y2="202.66" class="bp-line res-line" />
+<line x1="393.66" y1="202.66" x2="401.22" y2="202.87" class="bp-line res-line" />
+<line x1="401.22" y1="202.87" x2="408.78" y2="202.87" class="bp-line res-line" />
+<line x1="408.78" y1="202.87" x2="416.35" y2="202.66" class="bp-line res-line" />
+<line x1="416.35" y1="202.66" x2="423.91" y2="202.45" class="bp-line res-line" />
+<circle cx="131.51" cy="199.67" class="residue-circle" r="2.28779925"/>
+<circle cx="131.51" cy="192.1" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="131.51" cy="184.54" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="131.72" cy="176.98" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="131.72" cy="169.42" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="131.72" cy="161.86" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="131.51" cy="154.3" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="131.72" cy="146.74" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="125.82" cy="141.52" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="118.27" cy="141.89" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="111.08" cy="142.47" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="103.59" cy="142.63" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="96.04" cy="143.0" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="89.9" cy="145.81" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="83.17" cy="146.13" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="76.79" cy="143.93" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="69.24000000000001" cy="144.3" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="61.84" cy="144.88" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="54.11" cy="145.27" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="46.37" cy="145.63" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="38.46" cy="145.8" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="31.33" cy="146.16" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="23.36" cy="146.53" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="16.23" cy="149.06" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="10.16" cy="144.85" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="10.0" cy="137.3" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="15.629999999999999" cy="132.49" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="22.97" cy="134.31" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="30.52" cy="133.94" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="38.28" cy="133.57" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="45.77" cy="133.41" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="45.68" cy="127.24" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="49.91" cy="122.74" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="56.07" cy="122.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="60.72" cy="126.5" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="61.24" cy="132.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="68.43" cy="132.07999999999998" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="75.98" cy="131.70999999999998" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="79.55" cy="126.74" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="85.29" cy="124.66" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="91.21" cy="126.19" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="95.23" cy="130.78" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="102.57" cy="130.4" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="110.34" cy="130.04000000000002" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="117.89" cy="129.67000000000002" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="125.44" cy="129.3" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="130.53" cy="123.78" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="137.63" cy="121.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="144.67" cy="123.58" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="151.43" cy="119.8" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="157.77" cy="116.02" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="164.31" cy="112.24" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="161.36" cy="105.47" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="162.23" cy="97.98" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="167.35" cy="92.43" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="174.93" cy="90.76" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="181.9" cy="93.79" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="185.71" cy="99.88" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="192.26" cy="96.1" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="198.81" cy="92.32" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="205.77" cy="88.54" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="215.31" cy="82.73" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="219.94" cy="76.6" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="227.46" cy="75.84" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="234.01" cy="72.06" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="240.77" cy="68.28" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="249.77" cy="63.26" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="250.24" cy="56.04" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="253.67" cy="49.68" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="259.43" cy="45.31" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="266.49" cy="43.73" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="273.56" cy="45.22" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="279.38" cy="49.52" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="282.88" cy="55.85" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="283.44" cy="63.06" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="280.96" cy="69.85" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="275.87" cy="74.99" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="269.11" cy="77.56" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="261.9" cy="77.09" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="255.53" cy="73.66" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="257.16999999999996" cy="79.9" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="251.64" cy="83.24" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="246.88" cy="78.88" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="239.92" cy="82.65" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="233.59" cy="86.43" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="229.37" cy="92.57" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="221.64" cy="93.33" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="223.64" cy="98.46" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="220.66" cy="103.09" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="215.16" cy="103.41" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="211.68" cy="99.14" class="residue-circle color-posterior_probability-10" r="2.28779925"/>
+<circle cx="205.14" cy="102.92" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="198.59" cy="106.7" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="192.04" cy="110.48" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="190.59" cy="118.08" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="185.18" cy="123.3" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="177.84" cy="125.14" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="170.64" cy="122.84" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="164.1" cy="126.62" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="157.76" cy="130.4" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="151.0" cy="134.18" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="149.22" cy="141.52" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="143.75" cy="146.74" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="143.96" cy="154.3" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="143.54" cy="161.86" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="143.75" cy="169.42" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="143.75" cy="176.98" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="143.54" cy="184.54" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="143.75" cy="192.1" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="149.3" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="156.45" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="164.42" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="171.93" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="179.49" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="187.1" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="194.66" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="201.81" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="209.58" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="217.29" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="224.9" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="232.05" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="239.97" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="247.38" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="255.14" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="262.7" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="270.26" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="277.77" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="284.97" cy="197.44" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="292.89" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="300.45" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="308.01" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="315.57" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="323.13" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="330.69" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="338.25" cy="197.65" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.81" cy="197.32" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.81" cy="189.76" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.81" cy="182.2" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.6" cy="174.64" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="346.02" cy="167.08" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="346.02" cy="159.52" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.81" cy="151.96" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="338.48" cy="152.5" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="330.96" cy="150.59" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="324.65" cy="146.42" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="320.04" cy="140.43" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="317.6" cy="133.28" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="317.6" cy="125.72" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="320.24" cy="118.56" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="324.86" cy="112.58" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="331.16" cy="108.4" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="338.42" cy="106.7" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.81" cy="107.04" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.81" cy="99.48" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.81" cy="91.92" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.81" cy="84.36" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="346.02" cy="76.8" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.81" cy="69.24000000000001" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.8" cy="61.68" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.83" cy="54.11" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.9" cy="46.54" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="346.0" cy="38.980000000000004" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="345.79" cy="31.42" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="346.0" cy="23.86" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="343.79" cy="18.05" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="346.26" cy="12.35" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="352.02" cy="10.0" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="357.78" cy="12.35" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="360.25" cy="18.05" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="358.03" cy="23.86" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="357.82" cy="31.42" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="358.03" cy="38.980000000000004" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="365.04" cy="38.91" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="371.37" cy="41.92" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="375.74" cy="47.4" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="377.27" cy="54.24" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="375.65" cy="61.05" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="371.21" cy="66.47" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="364.84" cy="69.4" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="357.84" cy="69.24000000000001" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="358.05" cy="76.8" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="357.84" cy="84.36" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="357.84" cy="91.92" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="358.26" cy="99.48" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="357.84" cy="107.04" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="365.13" cy="110.18" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="370.58" cy="115.57" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="374.19" cy="122.04" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="375.42" cy="129.5" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="374.19" cy="136.95999999999998" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="370.43" cy="143.63" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="364.93" cy="148.81" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="358.26" cy="151.96" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="358.05" cy="159.52" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="357.84" cy="167.08" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="358.05" cy="174.64" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="358.26" cy="182.2" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="357.84" cy="189.76" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="358.05" cy="197.32" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="363.4" cy="202.66" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="370.96" cy="202.87" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="378.53" cy="202.66" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="386.09" cy="202.66" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="393.66" cy="202.66" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="401.22" cy="202.87" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="408.78" cy="202.87" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="416.35" cy="202.66" class="residue-circle color-posterior_probability-0" r="2.28779925"/>
+<circle cx="423.91" cy="202.45" class="residue-circle" r="2.28779925"/>
+<g><title>Position: 0 (position.label in template: 0.5')</title><text x="131.51" y="199.67" class="text-green font" >5'</text></g>
+<g><title>Position: 1 (position.label in template: 1.C)
+Alignment accuracy: 0</title><text x="131.51" y="192.1" class="text-green font" >C</text></g>
+<g><title>Position: 2 (position.label in template: 2.C)
+Alignment accuracy: 0</title><text x="131.51" y="184.54" class="text-black font" >C</text></g>
+<g><title>Position: 3 (position.label in template: 3.A)
+Alignment accuracy: 0</title><text x="131.72" y="176.98" class="text-black font" >A</text></g>
+<g><title>Position: 4 (position.label in template: 4.A)
+Alignment accuracy: 0</title><text x="131.72" y="169.42" class="text-black font" >A</text></g>
+<g><title>Position: 5 (position.label in template: 5.Y)
+Alignment accuracy: 0</title><text x="131.72" y="161.86" class="text-green font" >C</text></g>
+<g><title>Position: 6 (position.label in template: 6.R)
+Alignment accuracy: 0</title><text x="131.51" y="154.3" class="text-green font" >G</text></g>
+<g><title>Position: 7 (position.label in template: 7.Y)
+Alignment accuracy: 0</title><text x="131.72" y="146.74" class="text-green font" >U</text></g>
+<g><title>Position: 8 (position.label in template: 8.G)
+Alignment accuracy: 0</title><text x="125.82" y="141.52" class="text-black font" >G</text></g>
+<g><title>Position: 9 (position.label in template: 9.G)
+Alignment accuracy: 0</title><text x="118.27" y="141.89" class="text-black font" >G</text></g>
+<g><title>Position: 10 (position.label in template: 10.N)
+Alignment accuracy: 0</title><text x="111.08" y="142.47" class="text-green font" >A</text></g>
+<g><title>Position: 11 (position.label in template: 11.Y)
+Alignment accuracy: 0</title><text x="103.59" y="142.63" class="text-green font" >U</text></g>
+<g><title>Position: 12 (position.label in template: 12.A)
+Alignment accuracy: 0</title><text x="96.04" y="143.0" class="text-black font" >A</text></g>
+<g><title>Position: 13 (position.label in template: 13.Y)
+Alignment accuracy: 0</title><text x="89.9" y="145.81" class="text-green font" >C</text></g>
+<g><title>Position: 14 (position.label in template: -1.)
+Alignment accuracy: 0</title><text x="83.17" y="146.13" class="text-red font" >A</text></g>
+<g><title>Position: 15 (position.label in template: 14.C)
+Alignment accuracy: 0</title><text x="76.79" y="143.93" class="text-black font" >C</text></g>
+<g><title>Position: 16 (position.label in template: 15.C)
+Alignment accuracy: 0</title><text x="69.24000000000001" y="144.3" class="text-black font" >C</text></g>
+<g><title>Position: 17 (position.label in template: 16.N)
+Alignment accuracy: 0</title><text x="61.84" y="144.88" class="text-green font" >C</text></g>
+<g><title>Position: 18 (position.label in template: 17.N)
+Alignment accuracy: 0</title><text x="54.11" y="145.27" class="text-green font" >G</text></g>
+<g><title>Position: 19 (position.label in template: 18.N)
+Alignment accuracy: 0</title><text x="46.37" y="145.63" class="text-green font" >G</text></g>
+<g><title>Position: 20 (position.label in template: 19.G)
+Alignment accuracy: 0</title><text x="38.46" y="145.8" class="text-green font" >G</text></g>
+<g><title>Position: 21 (position.label in template: 20.A)
+Alignment accuracy: 0</title><text x="31.33" y="146.16" class="text-black font" >A</text></g>
+<g><title>Position: 22 (position.label in template: 21.G)
+Alignment accuracy: 0</title><text x="23.36" y="146.53" class="text-black font" >G</text></g>
+<g><title>Position: 23 (position.label in template: 22.G)
+Alignment accuracy: 0</title><text x="16.23" y="149.06" class="text-black font" >G</text></g>
+<g><title>Position: 24 (position.label in template: 23.U)
+Alignment accuracy: 0</title><text x="10.16" y="144.85" class="text-black font" >U</text></g>
+<g><title>Position: 25 (position.label in template: 24.Y)
+Alignment accuracy: 0</title><text x="10.0" y="137.3" class="text-green font" >C</text></g>
+<g><title>Position: 26 (position.label in template: 25.R)
+Alignment accuracy: 0</title><text x="15.629999999999999" y="132.49" class="text-green font" >A</text></g>
+<g><title>Position: 27 (position.label in template: 26.C)
+Alignment accuracy: 0</title><text x="22.97" y="134.31" class="text-black font" >C</text></g>
+<g><title>Position: 28 (position.label in template: 27.U)
+Alignment accuracy: 0</title><text x="30.52" y="133.94" class="text-black font" >U</text></g>
+<g><title>Position: 29 (position.label in template: 28.Y)
+Alignment accuracy: 0</title><text x="38.28" y="133.57" class="text-green font" >C</text></g>
+<g><title>Position: 30 (position.label in template: 29.N)
+Alignment accuracy: 0</title><text x="45.77" y="133.41" class="text-green font" >U</text></g>
+<g><title>Position: 31 (position.label in template: 30.N)
+Alignment accuracy: 0</title><text x="45.68" y="127.24" class="text-green font" >C</text></g>
+<g><title>Position: 32 (position.label in template: 31.N)
+Alignment accuracy: 0</title><text x="49.91" y="122.74" class="text-green font" >C</text></g>
+<g><title>Position: 33 (position.label in template: -1.)
+Alignment accuracy: 0</title><text x="56.07" y="122.44" class="text-red font" >C</text></g>
+<g><title>Position: 34 (position.label in template: -1.)
+Alignment accuracy: 0</title><text x="60.72" y="126.5" class="text-red font" >C</text></g>
+<g><title>Position: 35 (position.label in template: 32.N)
+Alignment accuracy: 0</title><text x="61.24" y="132.65" class="text-green font" >G</text></g>
+<g><title>Position: 36 (position.label in template: 33.G)
+Alignment accuracy: 0</title><text x="68.43" y="132.07999999999998" class="text-black font" >G</text></g>
+<g><title>Position: 37 (position.label in template: 34.G)
+Alignment accuracy: 0</title><text x="75.98" y="131.70999999999998" class="text-black font" >G</text></g>
+<g><title>Position: 38 (position.label in template: 35.C)
+Alignment accuracy: 0</title><text x="79.55" y="126.74" class="text-blue font" >C</text></g>
+<g><title>Position: 39 (position.label in template: 36.U)
+Alignment accuracy: 0</title><text x="85.29" y="124.66" class="text-blue font" >U</text></g>
+<g><title>Position: 40 (position.label in template: 37.C)
+Alignment accuracy: 0</title><text x="91.21" y="126.19" class="text-blue font" >C</text></g>
+<g><title>Position: 41 (position.label in template: 38.U)
+Alignment accuracy: 0</title><text x="95.23" y="130.78" class="text-black font" >U</text></g>
+<g><title>Position: 42 (position.label in template: 39.G)
+Alignment accuracy: 0</title><text x="102.57" y="130.4" class="text-green font" >G</text></g>
+<g><title>Position: 43 (position.label in template: 40.U)
+Alignment accuracy: 0</title><text x="110.34" y="130.04000000000002" class="text-green font" >U</text></g>
+<g><title>Position: 44 (position.label in template: 41.C)
+Alignment accuracy: 0</title><text x="117.89" y="129.67000000000002" class="text-black font" >C</text></g>
+<g><title>Position: 45 (position.label in template: 42.C)
+Alignment accuracy: 0</title><text x="125.44" y="129.3" class="text-black font" >C</text></g>
+<g><title>Position: 46 (position.label in template: 43.N)
+Alignment accuracy: 0</title><text x="130.53" y="123.78" class="text-green font" >A</text></g>
+<g><title>Position: 47 (position.label in template: 44.R)
+Alignment accuracy: 0</title><text x="137.63" y="121.44" class="text-green font" >A</text></g>
+<g><title>Position: 48 (position.label in template: 45.G)
+Alignment accuracy: 0</title><text x="144.67" y="123.58" class="text-black font" >G</text></g>
+<g><title>Position: 49 (position.label in template: 46.U)
+Alignment accuracy: 0</title><text x="151.43" y="119.8" class="text-black font" >U</text></g>
+<g><title>Position: 50 (position.label in template: 47.G)
+Alignment accuracy: 0</title><text x="157.77" y="116.02" class="text-black font" >G</text></g>
+<g><title>Position: 51 (position.label in template: 48.G)
+Alignment accuracy: 0</title><text x="164.31" y="112.24" class="text-black font" >G</text></g>
+<g><title>Position: 52 (position.label in template: 49.Y)
+Alignment accuracy: 0</title><text x="161.36" y="105.47" class="text-green font" >C</text></g>
+<g><title>Position: 53 (position.label in template: 50.R)
+Alignment accuracy: 0</title><text x="162.23" y="97.98" class="text-green font" >G</text></g>
+<g><title>Position: 54 (position.label in template: 51.U)
+Alignment accuracy: 0</title><text x="167.35" y="92.43" class="text-black font" >U</text></g>
+<g><title>Position: 55 (position.label in template: 52.A)
+Alignment accuracy: 0</title><text x="174.93" y="90.76" class="text-black font" >A</text></g>
+<g><title>Position: 56 (position.label in template: 53.N)
+Alignment accuracy: 0</title><text x="181.9" y="93.79" class="text-green font" >G</text></g>
+<g><title>Position: 57 (position.label in template: 54.G)
+Alignment accuracy: 0</title><text x="185.71" y="99.88" class="text-black font" >G</text></g>
+<g><title>Position: 58 (position.label in template: 55.G)
+Alignment accuracy: 0</title><text x="192.26" y="96.1" class="text-black font" >G</text></g>
+<g><title>Position: 59 (position.label in template: 56.G)
+Alignment accuracy: 0</title><text x="198.81" y="92.32" class="text-black font" >G</text></g>
+<g><title>Position: 60 (position.label in template: 57.A)
+Alignment accuracy: 10</title><text x="205.77" y="88.54" class="text-black font" >A</text></g>
+<g><title>Position: 61 (position.label in template: 58.G)
+Alignment accuracy: 10</title><text x="215.31" y="82.73" class="text-black font" >G</text></g>
+<g><title>Position: 62 (position.label in template: 59.C)
+Alignment accuracy: 10</title><text x="219.94" y="76.6" class="text-black font" >C</text></g>
+<g><title>Position: 63 (position.label in template: 60.R)
+Alignment accuracy: 10</title><text x="227.46" y="75.84" class="text-green font" >A</text></g>
+<g><title>Position: 64 (position.label in template: 61.U)
+Alignment accuracy: 10</title><text x="234.01" y="72.06" class="text-black font" >U</text></g>
+<g><title>Position: 65 (position.label in template: 62.A)
+Alignment accuracy: 10</title><text x="240.77" y="68.28" class="text-green font" >A</text></g>
+<g><title>Position: 66 (position.label in template: 64.N)
+Alignment accuracy: 10</title><text x="249.77" y="63.26" class="text-green font" >G</text></g>
+<g><title>Position: 67 (position.label in template: 65.N)
+Alignment accuracy: 10</title><text x="250.24" y="56.04" class="text-green font" >G</text></g>
+<g><title>Position: 68 (position.label in template: 66.Y)
+Alignment accuracy: 10</title><text x="253.67" y="49.68" class="text-green font" >G</text></g>
+<g><title>Position: 69 (position.label in template: 67.U)
+Alignment accuracy: 10</title><text x="259.43" y="45.31" class="text-green font" >C</text></g>
+<g><title>Position: 70 (position.label in template: 68.N)
+Alignment accuracy: 10</title><text x="266.49" y="43.73" class="text-green font" >U</text></g>
+<g><title>Position: 71 (position.label in template: 69.N)
+Alignment accuracy: 10</title><text x="273.56" y="45.22" class="text-green font" >C</text></g>
+<g><title>Position: 72 (position.label in template: 70.G)
+Alignment accuracy: 10</title><text x="279.38" y="49.52" class="text-green font" >U</text></g>
+<g><title>Position: 73 (position.label in template: 71.Y)
+Alignment accuracy: 10</title><text x="282.88" y="55.85" class="text-green font" >G</text></g>
+<g><title>Position: 74 (position.label in template: 72.N)
+Alignment accuracy: 10</title><text x="283.44" y="63.06" class="text-green font" >C</text></g>
+<g><title>Position: 75 (position.label in template: 73.C)
+Alignment accuracy: 10</title><text x="280.96" y="69.85" class="text-blue font" >C</text></g>
+<g><title>Position: 76 (position.label in template: 74.N)
+Alignment accuracy: 10</title><text x="275.87" y="74.99" class="text-green font" >C</text></g>
+<g><title>Position: 77 (position.label in template: -1.)
+Alignment accuracy: 10</title><text x="269.11" y="77.56" class="text-red font" >C</text></g>
+<g><title>Position: 78 (position.label in template: -1.)
+Alignment accuracy: 10</title><text x="261.9" y="77.09" class="text-red font" >A</text></g>
+<g><title>Position: 79 (position.label in template: 75.G)
+Alignment accuracy: 10</title><text x="255.53" y="73.66" class="text-green font" >U</text></g>
+<g><title>Position: 80 (position.label in template: 77.G)
+Alignment accuracy: 10</title><text x="257.16999999999996" y="79.9" class="text-blue font" >G</text></g>
+<g><title>Position: 81 (position.label in template: 78.A)
+Alignment accuracy: 10</title><text x="251.64" y="83.24" class="text-blue font" >A</text></g>
+<g><title>Position: 82 (position.label in template: 79.Y)
+Alignment accuracy: 10</title><text x="246.88" y="78.88" class="text-green font" >U</text></g>
+<g><title>Position: 83 (position.label in template: 80.G)
+Alignment accuracy: 10</title><text x="239.92" y="82.65" class="text-black font" >G</text></g>
+<g><title>Position: 84 (position.label in template: 81.U)
+Alignment accuracy: 10</title><text x="233.59" y="86.43" class="text-green font" >U</text></g>
+<g><title>Position: 85 (position.label in template: 82.A)
+Alignment accuracy: 10</title><text x="229.37" y="92.57" class="text-black font" >A</text></g>
+<g><title>Position: 86 (position.label in template: 83.C)
+Alignment accuracy: 10</title><text x="221.64" y="93.33" class="text-black font" >C</text></g>
+<g><title>Position: 87 (position.label in template: 84.A)
+Alignment accuracy: 10</title><text x="223.64" y="98.46" class="text-blue font" >A</text></g>
+<g><title>Position: 88 (position.label in template: 85.R)
+Alignment accuracy: 10</title><text x="220.66" y="103.09" class="text-green font" >A</text></g>
+<g><title>Position: 89 (position.label in template: -1.)
+Alignment accuracy: 10</title><text x="215.16" y="103.41" class="text-red font" >G</text></g>
+<g><title>Position: 90 (position.label in template: 86.U)
+Alignment accuracy: 10</title><text x="211.68" y="99.14" class="text-black font" >U</text></g>
+<g><title>Position: 91 (position.label in template: 87.C)
+Alignment accuracy: 0</title><text x="205.14" y="102.92" class="text-black font" >C</text></g>
+<g><title>Position: 92 (position.label in template: 88.C)
+Alignment accuracy: 0</title><text x="198.59" y="106.7" class="text-black font" >C</text></g>
+<g><title>Position: 93 (position.label in template: 89.C)
+Alignment accuracy: 0</title><text x="192.04" y="110.48" class="text-black font" >C</text></g>
+<g><title>Position: 94 (position.label in template: 90.N)
+Alignment accuracy: 0</title><text x="190.59" y="118.08" class="text-green font" >U</text></g>
+<g><title>Position: 95 (position.label in template: 91.U)
+Alignment accuracy: 0</title><text x="185.18" y="123.3" class="text-black font" >U</text></g>
+<g><title>Position: 96 (position.label in template: 92.U)
+Alignment accuracy: 0</title><text x="177.84" y="125.14" class="text-black font" >U</text></g>
+<g><title>Position: 97 (position.label in template: 93.C)
+Alignment accuracy: 0</title><text x="170.64" y="122.84" class="text-black font" >C</text></g>
+<g><title>Position: 98 (position.label in template: 94.C)
+Alignment accuracy: 0</title><text x="164.1" y="126.62" class="text-black font" >C</text></g>
+<g><title>Position: 99 (position.label in template: 95.A)
+Alignment accuracy: 0</title><text x="157.76" y="130.4" class="text-black font" >A</text></g>
+<g><title>Position: 100 (position.label in template: 96.C)
+Alignment accuracy: 0</title><text x="151.0" y="134.18" class="text-black font" >C</text></g>
+<g><title>Position: 101 (position.label in template: 97.R)
+Alignment accuracy: 0</title><text x="149.22" y="141.52" class="text-green font" >A</text></g>
+<g><title>Position: 102 (position.label in template: 98.R)
+Alignment accuracy: 0</title><text x="143.75" y="146.74" class="text-green font" >A</text></g>
+<g><title>Position: 103 (position.label in template: 99.Y)
+Alignment accuracy: 0</title><text x="143.96" y="154.3" class="text-green font" >C</text></g>
+<g><title>Position: 104 (position.label in template: 100.G)
+Alignment accuracy: 0</title><text x="143.54" y="161.86" class="text-green font" >G</text></g>
+<g><title>Position: 105 (position.label in template: 101.U)
+Alignment accuracy: 0</title><text x="143.75" y="169.42" class="text-black font" >U</text></g>
+<g><title>Position: 106 (position.label in template: 102.U)
+Alignment accuracy: 0</title><text x="143.75" y="176.98" class="text-black font" >U</text></g>
+<g><title>Position: 107 (position.label in template: 103.G)
+Alignment accuracy: 0</title><text x="143.54" y="184.54" class="text-black font" >G</text></g>
+<g><title>Position: 108 (position.label in template: 104.R)
+Alignment accuracy: 0</title><text x="143.75" y="192.1" class="text-green font" >G</text></g>
+<g><title>Position: 109 (position.label in template: 105.A)
+Alignment accuracy: 0</title><text x="149.3" y="197.44" class="text-black font" >A</text></g>
+<g><title>Position: 110 (position.label in template: 106.G)
+Alignment accuracy: 0</title><text x="156.45" y="197.44" class="text-green font" >A</text></g>
+<g><title>Position: 111 (position.label in template: 107.A)
+Alignment accuracy: 0</title><text x="164.42" y="197.44" class="text-black font" >A</text></g>
+<g><title>Position: 112 (position.label in template: 108.N)
+Alignment accuracy: 0</title><text x="171.93" y="197.65" class="text-green font" >U</text></g>
+<g><title>Position: 113 (position.label in template: 109.N)
+Alignment accuracy: 0</title><text x="179.49" y="197.65" class="text-green font" >A</text></g>
+<g><title>Position: 114 (position.label in template: 110.A)
+Alignment accuracy: 0</title><text x="187.1" y="197.44" class="text-black font" >A</text></g>
+<g><title>Position: 115 (position.label in template: 111.A)
+Alignment accuracy: 0</title><text x="194.66" y="197.44" class="text-black font" >A</text></g>
+<g><title>Position: 116 (position.label in template: 112.G)
+Alignment accuracy: 0</title><text x="201.81" y="197.44" class="text-black font" >G</text></g>
+<g><title>Position: 117 (position.label in template: 113.C)
+Alignment accuracy: 0</title><text x="209.58" y="197.44" class="text-black font" >C</text></g>
+<g><title>Position: 118 (position.label in template: 114.N)
+Alignment accuracy: 0</title><text x="217.29" y="197.65" class="text-green font" >U</text></g>
+<g><title>Position: 119 (position.label in template: 115.Y)
+Alignment accuracy: 0</title><text x="224.9" y="197.44" class="text-green font" >G</text></g>
+<g><title>Position: 120 (position.label in template: 116.G)
+Alignment accuracy: 0</title><text x="232.05" y="197.44" class="text-black font" >G</text></g>
+<g><title>Position: 121 (position.label in template: 117.N)
+Alignment accuracy: 0</title><text x="239.97" y="197.65" class="text-green font" >G</text></g>
+<g><title>Position: 122 (position.label in template: 118.C)
+Alignment accuracy: 0</title><text x="247.38" y="197.44" class="text-black font" >C</text></g>
+<g><title>Position: 123 (position.label in template: 119.Y)
+Alignment accuracy: 0</title><text x="255.14" y="197.44" class="text-green font" >C</text></g>
+<g><title>Position: 124 (position.label in template: 120.Y)
+Alignment accuracy: 0</title><text x="262.7" y="197.44" class="text-green font" >U</text></g>
+<g><title>Position: 125 (position.label in template: 121.Y)
+Alignment accuracy: 0</title><text x="270.26" y="197.44" class="text-green font" >C</text></g>
+<g><title>Position: 126 (position.label in template: 122.N)
+Alignment accuracy: 0</title><text x="277.77" y="197.65" class="text-green font" >G</text></g>
+<g><title>Position: 127 (position.label in template: 123.G)
+Alignment accuracy: 0</title><text x="284.97" y="197.44" class="text-green font" >U</text></g>
+<g><title>Position: 128 (position.label in template: 124.N)
+Alignment accuracy: 0</title><text x="292.89" y="197.65" class="text-green font" >G</text></g>
+<g><title>Position: 129 (position.label in template: 125.N)
+Alignment accuracy: 0</title><text x="300.45" y="197.65" class="text-green font" >U</text></g>
+<g><title>Position: 130 (position.label in template: 126.N)
+Alignment accuracy: 0</title><text x="308.01" y="197.65" class="text-green font" >C</text></g>
+<g><title>Position: 131 (position.label in template: 127.N)
+Alignment accuracy: 0</title><text x="315.57" y="197.65" class="text-green font" >U</text></g>
+<g><title>Position: 132 (position.label in template: 128.N)
+Alignment accuracy: 0</title><text x="323.13" y="197.65" class="text-green font" >G</text></g>
+<g><title>Position: 133 (position.label in template: 129.N)
+Alignment accuracy: 0</title><text x="330.69" y="197.65" class="text-green font" >C</text></g>
+<g><title>Position: 134 (position.label in template: 130.N)
+Alignment accuracy: 0</title><text x="338.25" y="197.65" class="text-green font" >G</text></g>
+<g><title>Position: 135 (position.label in template: 147.C)
+Alignment accuracy: 0</title><text x="345.81" y="197.32" class="text-green font" >C</text></g>
+<g><title>Position: 136 (position.label in template: 148.C)
+Alignment accuracy: 0</title><text x="345.81" y="189.76" class="text-black font" >C</text></g>
+<g><title>Position: 137 (position.label in template: 149.U)
+Alignment accuracy: 0</title><text x="345.81" y="182.2" class="text-black font" >U</text></g>
+<g><title>Position: 138 (position.label in template: 150.G)
+Alignment accuracy: 0</title><text x="345.6" y="174.64" class="text-black font" >G</text></g>
+<g><title>Position: 139 (position.label in template: 151.Y)
+Alignment accuracy: 0</title><text x="346.02" y="167.08" class="text-green font" >C</text></g>
+<g><title>Position: 140 (position.label in template: 152.A)
+Alignment accuracy: 0</title><text x="346.02" y="159.52" class="text-black font" >A</text></g>
+<g><title>Position: 141 (position.label in template: 153.U)
+Alignment accuracy: 0</title><text x="345.81" y="151.96" class="text-black font" >U</text></g>
+<g><title>Position: 142 (position.label in template: 154.A)
+Alignment accuracy: 0</title><text x="338.48" y="152.5" class="text-black font" >A</text></g>
+<g><title>Position: 143 (position.label in template: 155.U)
+Alignment accuracy: 0</title><text x="330.96" y="150.59" class="text-black font" >U</text></g>
+<g><title>Position: 144 (position.label in template: 156.U)
+Alignment accuracy: 0</title><text x="324.65" y="146.42" class="text-black font" >U</text></g>
+<g><title>Position: 145 (position.label in template: 157.C)
+Alignment accuracy: 0</title><text x="320.04" y="140.43" class="text-black font" >C</text></g>
+<g><title>Position: 146 (position.label in template: 158.C)
+Alignment accuracy: 0</title><text x="317.6" y="133.28" class="text-black font" >C</text></g>
+<g><title>Position: 147 (position.label in template: 159.U)
+Alignment accuracy: 0</title><text x="317.6" y="125.72" class="text-black font" >U</text></g>
+<g><title>Position: 148 (position.label in template: 160.A)
+Alignment accuracy: 0</title><text x="320.24" y="118.56" class="text-black font" >A</text></g>
+<g><title>Position: 149 (position.label in template: 161.Y)
+Alignment accuracy: 0</title><text x="324.86" y="112.58" class="text-green font" >C</text></g>
+<g><title>Position: 150 (position.label in template: 162.A)
+Alignment accuracy: 0</title><text x="331.16" y="108.4" class="text-black font" >A</text></g>
+<g><title>Position: 151 (position.label in template: 163.N)
+Alignment accuracy: 0</title><text x="338.42" y="106.7" class="text-green font" >G</text></g>
+<g><title>Position: 152 (position.label in template: 164.C)
+Alignment accuracy: 0</title><text x="345.81" y="107.04" class="text-black font" >C</text></g>
+<g><title>Position: 153 (position.label in template: 165.U)
+Alignment accuracy: 0</title><text x="345.81" y="99.48" class="text-black font" >U</text></g>
+<g><title>Position: 154 (position.label in template: 166.U)
+Alignment accuracy: 0</title><text x="345.81" y="91.92" class="text-black font" >U</text></g>
+<g><title>Position: 155 (position.label in template: 167.C)
+Alignment accuracy: 0</title><text x="345.81" y="84.36" class="text-black font" >C</text></g>
+<g><title>Position: 156 (position.label in template: 168.Y)
+Alignment accuracy: 0</title><text x="346.02" y="76.8" class="text-green font" >C</text></g>
+<g><title>Position: 157 (position.label in template: 169.C)
+Alignment accuracy: 0</title><text x="345.81" y="69.24000000000001" class="text-black font" >C</text></g>
+<g><title>Position: 158 (position.label in template: 170.R)
+Alignment accuracy: 0</title><text x="345.8" y="61.68" class="text-green font" >A</text></g>
+<g><title>Position: 159 (position.label in template: 171.N)
+Alignment accuracy: 0</title><text x="345.83" y="54.11" class="text-green font" >G</text></g>
+<g><title>Position: 160 (position.label in template: 172.N)
+Alignment accuracy: 0</title><text x="345.9" y="46.54" class="text-green font" >A</text></g>
+<g><title>Position: 161 (position.label in template: 174.Y)
+Alignment accuracy: 0</title><text x="346.0" y="38.980000000000004" class="text-green font" >G</text></g>
+<g><title>Position: 162 (position.label in template: 175.C)
+Alignment accuracy: 0</title><text x="345.79" y="31.42" class="text-green font" >U</text></g>
+<g><title>Position: 163 (position.label in template: 176.Y)
+Alignment accuracy: 0</title><text x="346.0" y="23.86" class="text-green font" >C</text></g>
+<g><title>Position: 164 (position.label in template: 177.N)
+Alignment accuracy: 0</title><text x="343.79" y="18.05" class="text-green font" >C</text></g>
+<g><title>Position: 165 (position.label in template: 178.N)
+Alignment accuracy: 0</title><text x="346.26" y="12.35" class="text-green font" >U</text></g>
+<g><title>Position: 166 (position.label in template: 179.U)
+Alignment accuracy: 0</title><text x="352.02" y="10.0" class="text-green font" >G</text></g>
+<g><title>Position: 167 (position.label in template: -1.)
+Alignment accuracy: 0</title><text x="357.78" y="12.35" class="text-red font" >U</text></g>
+<g><title>Position: 168 (position.label in template: -1.)
+Alignment accuracy: 0</title><text x="360.25" y="18.05" class="text-red font" >C</text></g>
+<g><title>Position: 169 (position.label in template: 180.R)
+Alignment accuracy: 0</title><text x="358.03" y="23.86" class="text-green font" >G</text></g>
+<g><title>Position: 170 (position.label in template: 181.G)
+Alignment accuracy: 0</title><text x="357.82" y="31.42" class="text-green font" >A</text></g>
+<g><title>Position: 171 (position.label in template: 182.R)
+Alignment accuracy: 0</title><text x="358.03" y="38.980000000000004" class="text-green font" >C</text></g>
+<g><title>Position: 172 (position.label in template: 184.N)
+Alignment accuracy: 0</title><text x="365.04" y="38.91" class="text-green font" >A</text></g>
+<g><title>Position: 173 (position.label in template: 185.R)
+Alignment accuracy: 0</title><text x="371.37" y="41.92" class="text-green font" >A</text></g>
+<g><title>Position: 174 (position.label in template: 186.U)
+Alignment accuracy: 0</title><text x="375.74" y="47.4" class="text-blue font" >U</text></g>
+<g><title>Position: 175 (position.label in template: 187.N)
+Alignment accuracy: 0</title><text x="377.27" y="54.24" class="text-green font" >U</text></g>
+<g><title>Position: 176 (position.label in template: 188.A)
+Alignment accuracy: 0</title><text x="375.65" y="61.05" class="text-blue font" >A</text></g>
+<g><title>Position: 177 (position.label in template: 189.C)
+Alignment accuracy: 0</title><text x="371.21" y="66.47" class="text-blue font" >C</text></g>
+<g><title>Position: 178 (position.label in template: 190.U)
+Alignment accuracy: 0</title><text x="364.84" y="69.4" class="text-blue font" >U</text></g>
+<g><title>Position: 179 (position.label in template: 191.G)
+Alignment accuracy: 0</title><text x="357.84" y="69.24000000000001" class="text-black font" >G</text></g>
+<g><title>Position: 180 (position.label in template: 192.R)
+Alignment accuracy: 0</title><text x="358.05" y="76.8" class="text-green font" >G</text></g>
+<g><title>Position: 181 (position.label in template: 193.G)
+Alignment accuracy: 0</title><text x="357.84" y="84.36" class="text-black font" >G</text></g>
+<g><title>Position: 182 (position.label in template: 194.G)
+Alignment accuracy: 0</title><text x="357.84" y="91.92" class="text-black font" >G</text></g>
+<g><title>Position: 183 (position.label in template: 195.A)
+Alignment accuracy: 0</title><text x="358.26" y="99.48" class="text-black font" >A</text></g>
+<g><title>Position: 184 (position.label in template: 196.G)
+Alignment accuracy: 0</title><text x="357.84" y="107.04" class="text-black font" >G</text></g>
+<g><title>Position: 185 (position.label in template: 197.A)
+Alignment accuracy: 0</title><text x="365.13" y="110.18" class="text-black font" >A</text></g>
+<g><title>Position: 186 (position.label in template: 198.N)
+Alignment accuracy: 0</title><text x="370.58" y="115.57" class="text-green font" >C</text></g>
+<g><title>Position: 187 (position.label in template: 199.A)
+Alignment accuracy: 0</title><text x="374.19" y="122.04" class="text-black font" >A</text></g>
+<g><title>Position: 188 (position.label in template: 200.A)
+Alignment accuracy: 0</title><text x="375.42" y="129.5" class="text-black font" >A</text></g>
+<g><title>Position: 189 (position.label in template: 201.A)
+Alignment accuracy: 0</title><text x="374.19" y="136.95999999999998" class="text-black font" >A</text></g>
+<g><title>Position: 190 (position.label in template: 202.C)
+Alignment accuracy: 0</title><text x="370.43" y="143.63" class="text-black font" >C</text></g>
+<g><title>Position: 191 (position.label in template: 203.C)
+Alignment accuracy: 0</title><text x="364.93" y="148.81" class="text-black font" >C</text></g>
+<g><title>Position: 192 (position.label in template: 204.A)
+Alignment accuracy: 0</title><text x="358.26" y="151.96" class="text-black font" >A</text></g>
+<g><title>Position: 193 (position.label in template: 205.U)
+Alignment accuracy: 0</title><text x="358.05" y="159.52" class="text-black font" >U</text></g>
+<g><title>Position: 194 (position.label in template: 206.G)
+Alignment accuracy: 0</title><text x="357.84" y="167.08" class="text-green font" >G</text></g>
+<g><title>Position: 195 (position.label in template: 207.C)
+Alignment accuracy: 0</title><text x="358.05" y="174.64" class="text-black font" >C</text></g>
+<g><title>Position: 196 (position.label in template: 208.A)
+Alignment accuracy: 0</title><text x="358.26" y="182.2" class="text-black font" >A</text></g>
+<g><title>Position: 197 (position.label in template: 209.G)
+Alignment accuracy: 0</title><text x="357.84" y="189.76" class="text-black font" >G</text></g>
+<g><title>Position: 198 (position.label in template: 210.R)
+Alignment accuracy: 0</title><text x="358.05" y="197.32" class="text-green font" >G</text></g>
+<g><title>Position: 199 (position.label in template: 211.R)
+Alignment accuracy: 0</title><text x="363.4" y="202.66" class="text-green font" >A</text></g>
+<g><title>Position: 200 (position.label in template: 212.N)
+Alignment accuracy: 0</title><text x="370.96" y="202.87" class="text-green font" >A</text></g>
+<g><title>Position: 201 (position.label in template: 213.R)
+Alignment accuracy: 0</title><text x="378.53" y="202.66" class="text-green font" >A</text></g>
+<g><title>Position: 202 (position.label in template: 214.C)
+Alignment accuracy: 0</title><text x="386.09" y="202.66" class="text-black font" >C</text></g>
+<g><title>Position: 203 (position.label in template: 215.A)
+Alignment accuracy: 0</title><text x="393.66" y="202.66" class="text-black font" >A</text></g>
+<g><title>Position: 204 (position.label in template: 216.N)
+Alignment accuracy: 0</title><text x="401.22" y="202.87" class="text-green font" >G</text></g>
+<g><title>Position: 205 (position.label in template: 217.N)
+Alignment accuracy: 0</title><text x="408.78" y="202.87" class="text-green font" >C</text></g>
+<g><title>Position: 206 (position.label in template: 218.Y)
+Alignment accuracy: 0</title><text x="416.35" y="202.66" class="text-green font" >C</text></g>
+<g><title>Position: 207 (position.label in template: 219.3')</title><text x="423.91" y="202.45" class="text-green font" >3'</text></g>
+</g>
+<g class="labels">
+<g class="label">
+<text x="111.42559120324992" y="149.32760281109006" class="font numbering-label sequential" >10</text>
+<line x1="111.17219788995578" y1="144.3008273527684" x2="111.3487078540781" y2="147.8024033977905" class="numbering-line sequential" />
+</g><g class="label">
+<text x="38.70171170830906" y="152.65740288435697" class="font numbering-label sequential" >20</text>
+<line x1="38.52445645700615" y1="147.6273670737993" x2="38.6479646545159" y2="151.1322034710574" class="numbering-line sequential" />
+</g><g class="label">
+<text x="41.31015569542677" y="128.19136629816114" class="font numbering-label sequential" >30</text>
+<line x1="44.58070815856257" y1="132.01709057801764" x2="42.61402506317097" y2="129.7165657114607" class="numbering-line sequential" />
+</g><g class="label">
+<text x="154.29579921688944" y="110.1038067341758" class="font numbering-label sequential" >50</text>
+<line x1="156.84358667056674" y1="114.44448165525569" x2="155.19102495947826" y2="111.62900614747537" class="numbering-line sequential" />
+</g><g class="label">
+<text x="156.44342213299686" y="138.36333668862295" class="font numbering-label sequential" >100</text>
+<line x1="152.45161950195208" y1="135.29768970398965" x2="154.45744818968413" y2="136.8381372753234" class="numbering-line sequential" />
+</g><g class="label">
+<text x="328.4274169106385" y="102.10352789332546" class="font numbering-label sequential" >150</text>
+<line x1="330.4297847230905" y1="106.72123325673522" x2="329.088786567733" y2="103.62872730662497" class="numbering-line sequential" />
+</g><g class="label">
+<text x="370.9684576549613" y="209.73415392631415" class="font numbering-label sequential" >200</text>
+<line x1="370.9656846973587" y1="204.70099666766293" x2="370.9676173646442" y2="208.2089545130146" class="numbering-line sequential" />
+</g></g>
+
+</svg>

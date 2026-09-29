@@ -1,0 +1,134 @@
+<html>
+<head>
+  <script
+    src="//unpkg.com/react@16/umd/react.development.js"
+    crossorigin
+  ></script>
+  <script
+    src="//unpkg.com/react-dom@16/umd/react-dom.development.js"
+    crossorigin
+  ></script>
+  <script
+    src="//unpkg.com/@jbrowse/react-linear-genome-view/dist/react-linear-genome-view.umd.development.js"
+    crossorigin
+  ></script>
+</head>
+
+<body>
+<h1>Find the genome location of Mouse glycoRNAs!</h1>
+
+<div id="jbrowse_linear_genome_view"></div>
+
+<script type="module">
+    import assembly from './assemblymouse.js'
+    import tracks from './tracks.js'
+    const { createViewState, JBrowseLinearGenomeView } =
+        JBrowseReactLinearGenomeView
+    const { createElement } = React
+    const { render } = ReactDOM
+
+    // 获取 URL 查询参数
+    const urlParams = new URLSearchParams(window.location.search);
+    const location = urlParams.get('location') || 'chr1:3,172,239..3,172,348'; // 默认位置
+
+    const state = new createViewState({
+    assembly,
+    tracks,
+    location: location,
+    defaultSession: {
+      name: 'my session',
+      view: {
+        id: 'linearGenomeView',
+        minimized: false,
+        type: 'LinearGenomeView',
+        offsetPx: 27948,
+        bpPerPx: 4126.5837320574165,
+        "displayedRegions": [
+          {
+            "refName": "1",
+            "start": 0,
+            "end": 248387328,
+            "reversed": false,
+            "assemblyName": "GRCm39"
+          }
+        ],
+        tracks: [
+          {
+            id: "GRCm39mouse",
+            type: "ReferenceSequenceTrack",
+            configuration: "GRCm39-ReferenceSequenceTrack",
+            minimized: false,
+            displays: [
+              {
+                id: "123GRCm39",
+                type: "LinearReferenceSequenceDisplay",
+                heightPreConfig: 150,
+                configuration: "GRCm39-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                showForward: true,
+                showReverse: true,
+                showTranslation: true,
+
+              }
+            ]
+          },
+          {
+            id: "AcuSjb-JHHhGbrLYR5Jfk",
+            type: "FeatureTrack",
+            configuration: "mousegenes",
+            minimized: false,
+            displays: [
+              {
+                id: "4t0xagMf9Qdfaauu5xgv8",
+                type: "LinearBasicDisplay",
+                configuration: "mousegenes-LinearBasicDisplay",
+                heightPreConfig: 180,
+              }
+            ]
+          },
+
+
+          {
+            id: "ImMS53oEA_XMPXtCWaDYE",
+            type: "FeatureTrack",
+            configuration: "mouse_ncRNA",
+            minimized: false,
+            displays: [
+              {
+                id: "xOh1vfKDERiLWoh93--TV",
+                type: "LinearBasicDisplay",
+                configuration: "mouse_ncRNA-LinearBasicDisplay",
+                heightPreConfig: 180,
+              }
+            ]
+          },
+
+          {
+            id: "ffvV0SPWoSum7EG8Z2nGq",
+            type: "FeatureTrack",
+            configuration: "mouseGenome",
+            minimized: false,
+            displays: [
+              {
+                id: "BIMEdbjrqhX4VxXwU8rmz",
+                type: "LinearBasicDisplay",
+                configuration: "mouseGenome-LinearBasicDisplay",
+                heightPreConfig: 170,
+              }
+            ]
+          },
+
+        ],
+      },
+    },
+  })
+
+  render(
+    createElement(JBrowseLinearGenomeView, { viewState: state }),
+    document.getElementById('jbrowse_linear_genome_view'),
+  )
+</script>
+
+
+</body>
+</html>
+

@@ -1,0 +1,236 @@
+<html>
+<head>
+  <script
+    src="//unpkg.com/react@16/umd/react.development.js"
+    crossorigin
+  ></script>
+  <script
+    src="//unpkg.com/react-dom@16/umd/react-dom.development.js"
+    crossorigin
+  ></script>
+  <script
+    src="//unpkg.com/@jbrowse/react-linear-genome-view/dist/react-linear-genome-view.umd.development.js"
+    crossorigin
+  ></script>
+</head>
+
+<body>
+<h1>Find the genome location of Human glycoRNAs!</h1>
+
+<div id="jbrowse_linear_genome_view"></div>
+
+<!--<button id="showsession">Show current session</button>-->
+<!--<textarea id="session" name="session" rows="20" cols="80"></textarea>-->
+<!--<p>updates:</p>-->
+<!--<textarea-->
+<!--  id="update"-->
+<!--  name="update"-->
+<!--  rows="5"-->
+<!--  cols="80"-->
+<!--  wrap="off"-->
+<!--&gt;</textarea>-->
+
+<script type="module">
+  import assembly from './assembly.js'
+  import tracks from './tracks.js'
+  const { createViewState, JBrowseLinearGenomeView } =
+    JBrowseReactLinearGenomeView
+  const { createElement } = React
+  const { render } = ReactDOM
+
+  // 获取 URL 查询参数
+  const urlParams = new URLSearchParams(window.location.search);
+  const location = urlParams.get('location') || 'chr1:93,847,573..93,847,657'; // 默认位置
+
+  const state = new createViewState({
+    assembly,
+    tracks,
+    location: location, // 动态传入位置
+    defaultSession: {
+      name: 'my session',
+      view: {
+        id: 'linearGenomeView',
+        minimized: false,
+        type: 'LinearGenomeView',
+        offsetPx: 27948,
+        bpPerPx: 4126.5837320574165,
+          "displayedRegions": [
+              {
+                  "refName": "chr1",
+                  "start": 0,
+                  "end": 248387328,
+                  "reversed": false,
+                  "assemblyName": "GRCh38"
+              }
+          ],
+
+        tracks: [
+          {
+            id: "IpTYJKmsp",
+            type: "ReferenceSequenceTrack",
+            configuration: "GRCh38-ReferenceSequenceTrack",
+            minimized: false,
+            displays: [
+              {
+                id: "s877wHWtzD",
+                type: "LinearReferenceSequenceDisplay",
+                heightPreConfig: 150,
+                configuration: "GRCh38-ReferenceSequenceTrack-LinearReferenceSequenceDisplay",
+                showForward: true,
+                showReverse: true,
+                showTranslation: true
+              }
+            ]
+          },
+          {
+            id: "KlOwyzCetvCJ7ykBWPvrY",
+            type: "FeatureTrack",
+            configuration: "genes",
+            minimized: false,
+            displays: [
+              {
+                id: "OOU7Cfj9VxBXjYw4IiWx_",
+                type: "LinearBasicDisplay",
+                configuration: "genes-LinearBasicDisplay",
+                heightPreConfig: 180,
+              }
+            ]
+          },
+            {
+                id: "hNhNPQoaQO2WNZ3_XBrgh",
+                type: "QuantitativeTrack",
+                configuration: "repeatrna_rt_hela-1750661954284-sessionTrack",
+                minimized: false,
+                displays: [
+                    {
+                        id: "dCFCBudUmRv1Tt9lY_DZL",
+                        type: "LinearWiggleDisplay",
+                        configuration: "repeatrna_rt_hela-1750661954284-sessionTrack-LinearWiggleDisplay",
+                        heightPreConfig: 150,
+                    }
+                ]
+            },
+
+            {
+                id: "VQXid2Ng49iJur0zQJ8bn",
+                type: "QuantitativeTrack",
+                configuration: "repeatrna_rt_h9_jb-1750662427229-sessionTrack",
+                minimized: false,
+                displays: [
+                    {
+                        id: "fG3qwnvBhR7KQw",
+                        type: "LinearWiggleDisplay",
+                        configuration: "repeatrna_rt_h9_jb-1750662427229-sessionTrack-LinearWiggleDisplay",
+                        heightPreConfig: 150,
+                    }
+                ]
+            },
+
+          {
+            id: "Up8YSL4PYXw9C5K4sgpMv",
+            type: "QuantitativeTrack",
+            configuration: "HeLa_ManNAz-Enrich_RTstops_plus",
+            minimized: false,
+            displays: [
+              {
+                id: "_o-eR4mLWGWQhDbjy3yWC",
+                type: "LinearWiggleDisplay",
+                configuration: "HeLa_ManNAz-Enrich_RTstops_plus-LinearWiggleDisplay",
+                heightPreConfig: 150,
+              }
+            ]
+          },
+
+          {
+            id: "J4auHPf1jZXfO9k8Iktym",
+            type: "QuantitativeTrack",
+            configuration: "HeLa_Input_RTstops_plus",
+            minimized: false,
+            displays: [
+              {
+                id: "z2nfzvevAw3gsZrqoKoA4",
+                type: "LinearWiggleDisplay",
+                configuration: "HeLa_Input_RTstops_plus-LinearWiggleDisplay",
+                heightPreConfig: 150,
+              }
+            ]
+          },
+
+          {
+            id: "22KEsWhUuqThhv9gHsTpG",
+            type: "QuantitativeTrack",
+            configuration: "H9_mannaz-enrich_rtstops_plus",
+            minimized: false,
+            displays: [
+              {
+                id: "qhpvEBtnf1mvkLhLOXleQ-SJ",
+                type: "LinearWiggleDisplay",
+                configuration: "H9_mannaz-enrich_rtstops_plus-LinearWiggleDisplay",
+                heightPreConfig: 150,
+              }
+            ]
+          },
+
+          {
+            id: "nid6HThYSj0uB-yf5pD1i",
+            type: "QuantitativeTrack",
+            configuration: "H9_Input_RTstops_plus",
+            minimized: false,
+            displays: [
+              {
+                id: "oxmm630yYVjdsTuqjunwc",
+                type: "LinearWiggleDisplay",
+                configuration: "H9_Input_RTstops_plus-LinearWiggleDisplay",
+                heightPreConfig: 150,
+              }
+            ]
+          },
+
+          {
+            id: "apkSt_bDm8qmNDhqWwrF5",
+            type: "QuantitativeTrack",
+            configuration: "RNAmodification",
+            minimized: false,
+            displays: [
+              {
+                id: "xrr7e_C-4bbkyiYPFC7eq",
+                type: "LinearBasicDisplay",
+                configuration: "m6a_human_hg38-LinearBasicDisplay",
+                heightPreConfig: 150,
+              }
+            ]
+          },
+
+
+
+        ],
+      },
+    },
+  })
+
+
+
+  // function navTo(event) {
+  //   state.session.view.navToLocString(event.target.dataset.location)
+  // }
+  // const buttons = document.getElementsByTagName('button')
+  // for (const button of buttons) {
+  //   if (button.dataset.type === 'gene_button') {
+  //     button.addEventListener('click', navTo)
+  //   }
+  // }
+  // const textArea = document.getElementById('session')
+  // document.getElementById('showsession').addEventListener('click', () => {
+  //   textArea.innerHTML = JSON.stringify(state.session, undefined, 2)
+  // })
+
+  render(
+    createElement(JBrowseLinearGenomeView, { viewState: state }),
+    document.getElementById('jbrowse_linear_genome_view'),
+  )
+</script>
+
+
+</body>
+</html>
+
