@@ -31,7 +31,7 @@ const routes = [
         props: true
       },
       {path: '/homostructure/:glycoRNAID',
-        name: 'HomoDetailPage', component: () => import('components/HomoDetails.vue'),
+        name: 'HomoDetailPage', component: () => import('components/homoDetails.vue'),
         props: true
       },
 
