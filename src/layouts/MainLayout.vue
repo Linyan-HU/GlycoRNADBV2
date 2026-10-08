@@ -1,16 +1,14 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
-      <q-toolbar class="toolbar-container">
+  <q-layout view="lhh Lpr lFf" class="fb-glyco">
+    <q-header class="fb-header">
+      <q-toolbar class="toolbar-container fb-toolbar">
         <q-toolbar-title class="custom-toolbar-title">
+          <span class="fb-brand-mark" aria-hidden="true"><q-icon name="hub" /></span>
           GlycoRNA DataBase
         </q-toolbar-title>
-
-        <HideButton />
-
-        <q-btn flat round dense icon="menu" aria-label="Menu" label="Menu" @click="toggleLeftDrawer" />
-
+        <q-btn class="fb-menu-button" flat round dense icon="menu" aria-label="Menu" label="Menu" @click="toggleLeftDrawer" />
       </q-toolbar>
+      <nav class="fb-route-nav" aria-label="Primary navigation"><HideButton /></nav>
     </q-header>
 
     <q-drawer
