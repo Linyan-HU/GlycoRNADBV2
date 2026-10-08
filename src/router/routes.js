@@ -27,7 +27,7 @@ const routes = [
         name: 'H9DetailPage', component: () => import('components/H9Detail.vue'),
         props: true },// 开启props传递
       {path: '/helastructure/:glycoRNAID',
-        name: 'HeLaDetailPage', component: () => import('components/HelaDetail.vue'),
+        name: 'HeLaDetailPage', component: () => import('components/HeLaDetail.vue'),
         props: true
       },
       {path: '/homostructure/:glycoRNAID',
